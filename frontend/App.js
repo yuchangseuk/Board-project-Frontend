@@ -1,11 +1,12 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import Signup from "./Page/Signup";
+import BoardList from "./Page/Board";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Signup />
+      <BoardList />
     </View>
   );
 }
