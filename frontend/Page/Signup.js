@@ -33,7 +33,7 @@ function Signup() {
       if (response.ok) {
         const jsonResponse = await response.json();
         console.log(jsonResponse);
-        console.log("하하");
+        console.log("하호");
       } else {
         console.log("회원실");
         console.error("회원가입 실패:", response.statusText);
